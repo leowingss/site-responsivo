@@ -71,6 +71,24 @@ hr {
     margin: 20px auto;
 }
 
+p {
+    line-height: 21.82px;
+    padding: 0 10px;
+}
+
+.section__titulo {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    /*evita problemas que podem surgir em navegadores*/
+    max-width: 100%;
+    /*max-width evita que as img fiquem grande demais e ultrapassem os seus pais */
+}
+
 
 /**********************************/
 
@@ -125,6 +143,30 @@ hr {
 
 /* 4. Quem somos
 /**********************************/
+
+.somos {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.somos-c {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.somos-c__texto {
+    /*flex-grow, flex-shrink, flex-basis.
+    ocupar um espaço 6 vezes maior que os outros flex itens
+    1 = permite que o item reduza o seu tamanho para caber no flex-container
+    160 = tamanho inicial do elementp é 160px.
+    */
+    flex: 6 1 160px;
+}
+
+.somos-c__img {
+    flex: 1 1 350px;
+}
 
 
 /**********************************/
