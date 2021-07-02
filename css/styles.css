@@ -27,6 +27,16 @@
 /* 0. Variáveis
 /**********************************/
 
+:root {
+    /*root representa um nível mais alto de um doc HTML, == seletor HTML */
+    --ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+    --clr-green-dark: #049A40;
+    --clr-green-light: #0BF96A;
+    --clr-pink-dark: #E10BF9;
+    --clr-pink-light: #F3A0FD;
+    --clr-white: #F5F5F5;
+}
+
 
 /**********************************/
 
