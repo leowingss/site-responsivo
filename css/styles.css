@@ -63,6 +63,14 @@ a:visited {
     color: black;
 }
 
+hr {
+    border: none;
+    background-color: var(--clr-pink-dark);
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
+}
+
 
 /**********************************/
 
