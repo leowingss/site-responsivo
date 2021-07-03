@@ -35,6 +35,7 @@
     --clr-pink-dark: #E10BF9;
     --clr-pink-light: #F3A0FD;
     --clr-white: #F5F5F5;
+    --clr-hover: #ff80aa;
 }
 
 
@@ -287,6 +288,11 @@ img {
     text-transform: uppercase;
     border: 2px solid var(--clr-purple);
     /* background-color: rgb(153, 10, 94); */
+}
+
+.plano__btn-comprar:hover {
+    background-color: var(--clr-hover);
+    transition: 0.7s;
 }
 
 .plano:last-child {
