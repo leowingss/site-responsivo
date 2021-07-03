@@ -45,6 +45,11 @@
 /* 1. Estilos gerais
 /**********************************/
 
+html {
+    scroll-behavior: smooth;
+    /*suavizar o id. */
+}
+
 body {
     background-color: var(--clr-white);
     font-family: var(--ff-primary);
@@ -452,3 +457,20 @@ img {
 
 /* 9. Footer
 /**********************************/
+
+.footer {
+    background-color: var(--clr-purple);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 55px calc((100% - 960px) / 2);
+    /*basicamente um margin 0 auto
+    20px a esquerda e direita.
+    */
+}
+
+.footer__copyright,
+.footer__logo {
+    padding-left: 10px;
+    padding-right: 10px;
+}
